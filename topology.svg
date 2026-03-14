@@ -1,0 +1,35 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#f8fafc" rx="10"/>
+  
+  <rect x="325" y="20" width="150" height="60" rx="5" fill="#1e293b"/>
+  <text x="400" y="55" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">PANORAMA (MGT)</text>
+  
+  <path d="M150,150 Q175,100 225,125 T300,150" fill="none" stroke="#0ea5e9" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="225" y="115" font-family="Arial" font-size="12" fill="#0ea5e9" text-anchor="middle">ISP-A (Primary)</text>
+  
+  <path d="M500,150 Q525,100 575,125 T650,150" fill="none" stroke="#6366f1" stroke-width="3" stroke-dasharray="5,5"/>
+  <text x="575" y="115" font-family="Arial" font-size="12" fill="#6366f1" text-anchor="middle">ISP-B (Secondary)</text>
+
+  <rect x="325" y="180" width="150" height="80" rx="5" fill="#ef4444"/>
+  <text x="400" y="220" font-family="Arial" font-size="16" fill="white" text-anchor="middle" font-weight="bold">DC HUB</text>
+  <text x="400" y="240" font-family="Arial" font-size="10" fill="white" text-anchor="middle">Prisma SD-WAN ION</text>
+
+  <rect x="150" y="380" width="120" height="70" rx="5" fill="#10b981"/>
+  <text x="210" y="415" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Branch 01</text>
+  
+  <rect x="530" y="380" width="120" height="70" rx="5" fill="#10b981"/>
+  <text x="590" y="415" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Branch 02</text>
+
+  <line x1="325" y1="200" x2="225" y1="150" stroke="#0ea5e9" stroke-width="2"/>
+  <line x1="475" y1="200" x2="575" y1="150" stroke="#6366f1" stroke-width="2"/>
+
+  <line x1="400" y1="80" x2="400" y2="180" stroke="#64748b" stroke-width="1" stroke-dasharray="4"/>
+
+  <line x1="210" y1="380" x2="210" y2="150" stroke="#0ea5e9" stroke-width="2"/>
+  <line x1="210" y1="380" x2="550" y2="150" stroke="#6366f1" stroke-width="1" opacity="0.5"/>
+  
+  <line x1="590" y1="380" x2="590" y2="150" stroke="#6366f1" stroke-width="2"/>
+  <line x1="590" y1="380" x2="250" y2="150" stroke="#0ea5e9" stroke-width="1" opacity="0.5"/>
+
+  <text x="20" y="480" font-family="Arial" font-size="10" fill="#64748b">Architecture: Dual-ISP Active/Standby SD-WAN Fabric</text>
+</svg>
